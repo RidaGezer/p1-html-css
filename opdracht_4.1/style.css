@@ -1,8 +1,16 @@
 h1 {
   font-size: 24px;
   font-weight: bold;
-  color: aqua;
+  color: #00ff26;
   font-style: italic;
+}
+header {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("./img/metroid.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 h2 {
   font-size: 20px;
@@ -17,8 +25,16 @@ h3 {
 p {
   color: #4d4d4d;
 }
+p {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 8px;
+  border-left: 10px solid black
+}
 .p1 {
   font-weight: bold;
+  color: #00ff15;
 }
 a {
   color: #8a2be2;
