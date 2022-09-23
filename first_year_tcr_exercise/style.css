@@ -9,7 +9,17 @@ html {
 body {
   font-family: "Goldman", cursive;
 }
-
+.header1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/hacker22.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h2 {
+  color: white;
+}
 nav {
   display: flex;
   width: 100%;
@@ -36,4 +46,29 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+footer {
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+section {
+  width: 100vh;
+  height: 100vw;
+}
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 6rem;
+  font-weight: bold;
 }
