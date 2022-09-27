@@ -10,6 +10,9 @@ body {
   font-family: "Goldman", cursive;
 }
 .header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   background-image: url(./img/hacker22.jpg);
@@ -17,7 +20,13 @@ body {
   background-position: center;
   background-size: cover;
 }
+h1 {
+  color: white;
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
 h2 {
+  margin-left: 45rem;
   color: white;
 }
 nav {
@@ -30,6 +39,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -60,10 +70,15 @@ footer {
   color: white;
   text-align: center;
   font-size: 2rem;
+  width: 100vw;
+  position: fixed;
+  margin-top: 2rem;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
 }
 section {
-  width: 100vh;
-  height: 100vw;
+  height: 100vh;
 }
 p {
   font-size: 2rem;
@@ -71,4 +86,32 @@ p {
 h2 {
   font-size: 6rem;
   font-weight: bold;
+}
+
+p {
+  width: 50vw;
+}
+.section_flex {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.pfirst {
+  display: flex;
+  align-items: center;
+}
+.img1 {
+  margin-top: 10rem;
+}
+
+.section_flex2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.p2 {
+  display: flex;
+  align-items: center;
 }
